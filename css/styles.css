@@ -1,0 +1,16 @@
+
+/********** Desktop view only (md+lg) **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Tablet view only (sm) **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Mobile view only (xs) **********/
+@media (max-width: 767px) {
+
+}
+ 
