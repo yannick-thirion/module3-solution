@@ -1,16 +1,42 @@
+#header-nav {
+  height: 70px;
+}
+
+.container {
+  width: 100%;
+}
+
+.navbar-brand  h1 {
+  margin-top: 0;
+}
+
+button.navbar-toggle {
+  margin-top: 17px;
+}
 
 /********** Desktop view only (md+lg) **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) {
 
+  .navbar-brand  h1::after {
+    content: " (desktop)";
+  }
 }
 
 /********** Tablet view only (sm) **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
+  .navbar-brand  h1::after {
+    content: " (tablet)";
+  }
 }
 
 /********** Mobile view only (xs) **********/
 @media (max-width: 767px) {
 
+  .navbar-brand {
+    margin-left: -15px;
+  }
+  .navbar-brand  h1::after {
+    content: " (mobile)";
+  }
 }
- 
