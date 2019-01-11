@@ -14,7 +14,7 @@
   min-height: 62px;
 }
 .navbar-brand h1 {
-  margin-top: 0px;
+  margin-top: -4px;
   color: black;
 }
 
@@ -45,11 +45,11 @@
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 34px;
   font-weight: bold;
 }
 
-h2 {
+h3 {
   font-size: 24px;
   font-weight: bold;
   margin: 10px 0 20px;
