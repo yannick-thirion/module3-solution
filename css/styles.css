@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-#header-nav, #chicken-block {
+#header-nav, .food-stuff {
   background-color: coral;
 }
 
@@ -50,12 +50,26 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
+  margin: 10px 0 20px;
 }
 
 #chicken-block {
   margin: 10px ;
+}
+
+.food-stuff {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.back-to-top {
+   margin-bottom: -12px;
+}
+
+.back-to-top a {
+  color: white;
 }
 
 /********** Desktop view only (md+lg) **********/
